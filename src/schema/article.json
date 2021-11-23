@@ -1,0 +1,58 @@
+{
+  "Main": {
+    "heading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading2",
+        "label": "Heading",
+        "placeholder": "heading of the article"
+      }
+    },
+    "detail_image": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "detail image"
+      }
+    },
+    "written_on": {
+      "type": "Date",
+      "config": {
+        "label": "written on",
+        "placeholder": "written on"
+      }
+    },
+    "thumbnail": {
+      "type": "Image",
+      "config": {
+        "constraint": {},
+        "thumbnails": [],
+        "label": "thumbnail"
+      }
+    },
+    "description": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "description",
+        "placeholder": "description"
+      }
+    },
+    "subheading": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading5",
+        "label": "subheading",
+        "placeholder": "sub heading"
+      }
+    },
+    "uid": {
+      "type": "UID",
+      "config": {
+        "label": "id",
+        "placeholder": "id"
+      }
+    }
+  }
+}
